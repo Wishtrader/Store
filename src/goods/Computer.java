@@ -1,20 +1,10 @@
 package goods;
 
-public class Computer {
+public class Computer extends ElectronicDevice {
 
-    private String name;
     private int ram;
-    private String department;
 
-    public void on() {
-
-    }
-
-    public void off() {
-
-    }
-
-    public void loadOs() {
+    public void loadOS() {
 
     }
 }

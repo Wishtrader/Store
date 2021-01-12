@@ -1,15 +1,8 @@
 package goods;
 
-public class GameConsole {
+public class GameConsole extends ElectronicDevice {
 
-    private String name;
     private int ram;
-    private String department;
-
-
-    public void on() {
-
-    }
 
     public void loadGame() {
 

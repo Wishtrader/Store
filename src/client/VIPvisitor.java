@@ -1,11 +1,19 @@
 package client;
 
-public class VIPvisitor extends Visitor  {
+public class VIPvisitor extends BaseVisitor {
 
-    private String name;
-    private double discount;
+    private float discount;
 
+    @Override
     public void buy() {
+       if (!checkDiscount()) {
+           super.buy();
+       } else {
 
+       }
+    }
+
+    private boolean checkDiscount() {
+        return discount > 0;
     }
 }
